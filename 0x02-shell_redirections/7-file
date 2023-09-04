@@ -1,6 +1,2 @@
 #!/bin/bash
-file_name='*\\'"Best School"'\\*$?*****:)'
-content="Best School"
-echo -n "$content" > "$file_name"
-echo >> "$file_name"
-echo "File '$file_name' has been created with the content '$content' followed by a newline."
+echo "Best School" > \\\*\\\\"'\"Best School\"\\'\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\)
